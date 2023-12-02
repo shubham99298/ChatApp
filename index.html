@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wassup chat app</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <section class="chat">
+        <div class="logo">
+            <img height="40" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzmB9UScCNR65QDvbLjuJX2wRekUW34nGeaAwmfGw9WDvWgdWyNVkKSpxJsXv_KWilVCE&usqp=CAU" alt="">
+            <h1>ChitChat</h1>
+        </div>
+        <div class="messageBox"></div>
+        <div>
+            <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+
+</html>
